@@ -3,7 +3,7 @@ module.exports = {
     title: `Nicola's Blog`,
     author: {
       name: `Nicola Kahale`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `who lives and works in Millbury building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,

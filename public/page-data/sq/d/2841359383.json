@@ -1,1 +1,13 @@
-{"data":{"site":{"siteMetadata":{"title":"Nicola's Blog","description":"A starter blog demonstrating what Gatsby can do.","social":{"twitter":"nakowafers"}}}}}
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "title": "Nicola's Blog",
+                "description": "A starter blog demonstrating what Gatsby can do.",
+                "social": {
+                    "twitter": "nakowafers"
+                }
+            }
+        }
+    }
+}
