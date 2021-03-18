@@ -14,15 +14,18 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 2rem;
+  padding-left: 0;
   margin-bottom: 10px;
+}
+
+.brand-logo {
+  padding-left: 2rem;
 }
 
 section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 1rem 1rem;
 }
 
 img {
