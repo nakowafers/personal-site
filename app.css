@@ -15,7 +15,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   padding-left: 0;
-  margin-bottom: 10px;
+  margin-bottom: 3rem;
 }
 
 .brand-logo {
@@ -45,6 +45,10 @@ div.container {
 h1 {
   font-size: rem;
   text-align: center;
+  animation-direction: alternate-reverse;
+  animation-duration: 5s;
+  animation-name: rainbow-text;
+  animation-iteration-count: infinite;
 }
 
 @keyframes rainbow-text {
@@ -92,12 +96,5 @@ img:hover {
   animation-direction: alternate-reverse;
   animation-duration: 5s;
   animation-name: rainbow-img;
-  animation-iteration-count: infinite;
-}
-
-h1:hover {
-  animation-direction: alternate-reverse;
-  animation-duration: 5s;
-  animation-name: rainbow-text;
   animation-iteration-count: infinite;
 }
