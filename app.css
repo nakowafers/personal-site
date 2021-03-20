@@ -7,15 +7,17 @@ body {
 header {
   height: 80px;
   width: 100vw;
-  color: white;
+  color: #f2e9e4;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
   font-size: 1.5rem;
   font-weight: bold;
-  background-color: black;
+  background-color: rgba(34, 34, 59, 0.75);
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   padding-left: 0;
-  margin-bottom: 3rem;
 }
 
 .brand-logo {
@@ -31,7 +33,23 @@ section {
 img {
   border-radius: 50%;
   max-width: 300px;
-  border: 8px solid black;
+  margin-top: 25px;
+}
+
+.nav-burger {
+  display: flex;
+  flex-direction: column;
+  padding-right: 2rem;
+}
+
+.line1,
+.line2,
+.line3 {
+  background-color: #f2e9e4;
+  height: 5px;
+  width: 40px;
+  margin: 2.5px 0 2.5px 0;
+  border-radius: 10%;
 }
 
 div.container {
@@ -43,12 +61,17 @@ div.container {
 }
 
 h1 {
-  font-size: rem;
+  font-size: 2rem;
+  color: #f2e9e4;
   text-align: center;
   animation-direction: alternate-reverse;
-  animation-duration: 5s;
+  animation-duration: 0s;
   animation-name: rainbow-text;
   animation-iteration-count: infinite;
+}
+
+h2 {
+  color: #f2e9e4;
 }
 
 @keyframes rainbow-text {
