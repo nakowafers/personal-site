@@ -34,6 +34,8 @@ footer {
 span.footnote {
   color: #f2e9e4;
   font-weight: 700;
+  padding: 0 40px 0 40px;
+  text-align: center;
 }
 
 .brand-logo {
