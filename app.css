@@ -21,6 +21,21 @@ header {
   padding-left: 0;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 34, 59, 0.75);
+  height: 80px;
+  width: 100vw;
+  margin-top: 300px;
+}
+
+span.footnote {
+  color: #f2e9e4;
+  font-weight: 700;
+}
+
 .brand-logo {
   padding-left: 2rem;
 }
@@ -54,11 +69,9 @@ img {
 }
 
 div.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 h1 {
