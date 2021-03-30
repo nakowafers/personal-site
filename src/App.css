@@ -64,7 +64,7 @@ header {
 
 section.hero {
   grid-row: 2 / 3;
-  height: 400px;
+  height: 80vh;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -74,6 +74,7 @@ section.hero {
 
 .slogan {
   font-size: 5rem;
+  opacity: 0;
 }
 
 section.head-shot {

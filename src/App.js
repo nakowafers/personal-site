@@ -8,7 +8,7 @@ function App() {
   const slogan = React.createRef();
 
   useEffect(() => {
-    gsap.fromTo(slogan.current, { opacity: 0, y: -25 }, { opacity: 1, duration: 3, delay: 2, y: 0 });
+    gsap.fromTo(slogan.current, { opacity: 0, y: 70 }, { opacity: 1, duration: 3, delay: 1, y: 0 });
   });
 
   return (
