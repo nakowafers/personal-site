@@ -4,7 +4,6 @@ body {
   font-family: "Lobster", Courier, monospace;
   background-color: #4a4e69;
   box-sizing: border-box;
-  min-height: 100%;
 }
 
 span.footnote {
@@ -40,7 +39,8 @@ img {
 }
 
 header {
-  height: 80px;
+  max-height: 80px;
+  height: 20vh;
   width: 100vw;
   color: #f2e9e4;
   position: sticky;
@@ -52,19 +52,18 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid-row: 1;
 }
 
 .App {
   display: grid;
-  height: 100vh;
   grid-template-rows: 1fr 1fr auto;
   justify-items: center;
+  height: 100vh;
 }
 
 section.hero {
   grid-row: 2 / 3;
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
   background-color: black;
   display: flex;
@@ -100,54 +99,9 @@ h1 {
   font-size: 2rem;
   color: #f2e9e4;
   text-align: center;
-  animation-direction: alternate-reverse;
-  animation-duration: 0s;
-  animation-name: rainbow-text;
-  animation-iteration-count: infinite;
 }
 
 h2 {
   color: #f2e9e4;
   text-align: center;
-}
-
-@keyframes rainbow-text {
-  0% {
-    color: black;
-  }
-  20% {
-    color: red;
-  }
-  40% {
-    color: orange;
-  }
-  60% {
-    color: green;
-  }
-  60% {
-    color: purple;
-  }
-  100% {
-    color: royalblue;
-  }
-}
-@keyframes rainbow-img {
-  0% {
-    border-color: black;
-  }
-  20% {
-    border-color: red;
-  }
-  40% {
-    border-color: orange;
-  }
-  60% {
-    border-color: green;
-  }
-  60% {
-    border-color: purple;
-  }
-  100% {
-    border-color: royalblue;
-  }
 }
