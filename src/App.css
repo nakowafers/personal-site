@@ -48,8 +48,8 @@ header {
   top: 0;
   font-size: 1.5rem;
   font-weight: bold;
-  background-color: rgba(34, 34, 59, 0.75);
   display: flex;
+  background-color: black;
   justify-content: space-between;
   align-items: center;
 }
