@@ -65,7 +65,7 @@ section.hero {
   margin: 0;
   padding: 0;
   grid-row: 2 / 3;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   background-color: black;
   display: flex;
