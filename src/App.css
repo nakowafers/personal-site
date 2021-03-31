@@ -40,7 +40,6 @@ img {
 
 header {
   max-height: 80px;
-  height: 20vh;
   width: 100vw;
   color: #f2e9e4;
   position: sticky;
@@ -52,6 +51,7 @@ header {
   background-color: black;
   justify-content: space-between;
   align-items: center;
+  grid-row: 1 / 2;
 }
 
 .App {
@@ -69,6 +69,7 @@ section.hero {
   width: 100vw;
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -76,11 +77,12 @@ section.hero {
 .slogan {
   font-size: 5rem;
   opacity: 0;
+  position: absolute;
 }
 
 section.head-shot {
   grid-row: 3 / 4;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -88,7 +90,7 @@ section.head-shot {
 
 footer {
   grid-row: 4 / 5;
-  background-color: rgba(34, 34, 59, 0.75);
+  background-color: rgba(78, 78, 92, 0.75);
   height: 80px;
   width: 100vw;
   display: flex;

@@ -7,7 +7,7 @@ function Header(props) {
 
     // Similar to componentDidMount and componentDidUpdate:
     useEffect(() => {
-        gsap.fromTo(header.current, { opacity: 0 }, { opacity: 1, duration: 4, yoyo: true, repeat: -1 });
+        gsap.fromTo(header.current, { opacity: 0 }, { opacity: 1, duration: 4 });
     }, [header]);
 
     return (

@@ -5,17 +5,26 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const slogan = React.createRef();
+  const slogan_1 = React.createRef();
+  const slogan_2 = React.createRef();
+  const slogan_3 = React.createRef();
 
   useEffect(() => {
-    gsap.fromTo(slogan.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 3, delay: 1, y: 0 });
+    let t1 = gsap.timeline();
+    t1.fromTo(slogan_1.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 1, y: 0 });
+    t1.to(slogan_1.current, { opacity: 0, y: -100, duration: 1 });
+    t1.fromTo(slogan_2.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 1, y: 0 });
+    t1.to(slogan_2.current, { opacity: 0, y: -100, duration: 1 });
+    t1.fromTo(slogan_3.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 1, y: 0 });
   });
 
   return (
     <div className="App">
       <Header />
       <section className="hero">
-        <h1 ref={slogan} className="slogan">Create.</h1>
+        <h1 ref={slogan_1} className="slogan">Dream.</h1>
+        <h1 ref={slogan_2} className="slogan">Innovate.</h1>
+        <h1 ref={slogan_3} className="slogan">Create.</h1>
       </section>
       <section className="head-shot">
         <img src="images/head_Shot.jpeg" alt="head_shot" />
