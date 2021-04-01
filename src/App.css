@@ -1,7 +1,4 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: "Lobster", Courier, monospace;
   background-color: black;
   box-sizing: border-box;
 }
@@ -14,6 +11,14 @@ span.footnote {
 
 .brand-logo {
   padding-left: 2rem;
+}
+
+.draw-me-now {
+  width: 400px;
+  opacity: 1;
+  stroke-width: 1px;
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.445);
 }
 
 img {
@@ -72,6 +77,14 @@ section.hero {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+h2 a:visited {
+  color: #f2e9e4;
 }
 
 .slogan {

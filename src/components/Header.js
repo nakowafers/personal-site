@@ -12,7 +12,7 @@ function Header(props) {
 
     return (
         <header>
-            <h2 ref={header} className="brand-logo">nk.digital</h2>
+            <h2 ref={header} className="brand-logo"><a href="www.nicolakahale.com">nk.digital</a></h2>
             <div className="nav-burger">
                 <div className="line1"></div>
                 <div className="line2"></div>
