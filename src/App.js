@@ -16,7 +16,7 @@ function App() {
     t1.fromTo(slogan_2.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 2, y: 0 });
     t1.to(slogan_2.current, { opacity: 0, y: -100, duration: 2 });
     t1.fromTo(slogan_3.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 2, y: -20 });
-    t1.fromTo(".ball", { y: 100, x: "random(-300, 300, 5)", opacity: 1 }, { opacity: 0, y: -700, repeat: -1, duration: 10, stagger: 1 })
+    t1.fromTo(".ball", { y: 100, x: "random(-300, 300, 5)", opacity: 1 }, { opacity: 0, y: -900, repeat: -1, duration: 10, stagger: 1 })
 
 
 
