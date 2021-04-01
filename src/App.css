@@ -79,6 +79,14 @@ section.hero {
   align-items: center;
 }
 
+.ball {
+  width: 10px;
+  height: 10px;
+  opacity: 0;
+  background-color: rgb(255, 255, 255);
+  border-radius: 100%;
+}
+
 h2 a {
   text-decoration: none;
   color: #f2e9e4;
