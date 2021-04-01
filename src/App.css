@@ -81,6 +81,7 @@ section.hero {
 
 h2 a {
   text-decoration: none;
+  color: #f2e9e4;
 }
 
 h2 a:visited {
