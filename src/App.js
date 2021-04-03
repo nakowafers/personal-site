@@ -25,8 +25,6 @@ function App() {
         <h1 ref={slogan_1} className="slogan">Dream.</h1>
         <h1 ref={slogan_2} className="slogan">Innovate.</h1>
         <h1 ref={slogan_3} className="slogan">Create.</h1>
-
-
       </section >
       <section className="head-shot">
         <img src="images/head_Shot.jpeg" alt="head_shot" />
