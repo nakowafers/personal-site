@@ -16,10 +16,6 @@ function App() {
     t1.fromTo(slogan_2.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 2, y: 0 });
     t1.to(slogan_2.current, { opacity: 0, y: -100, duration: 2 });
     t1.fromTo(slogan_3.current, { opacity: 0, y: 100 }, { opacity: 1, duration: 2, y: -20 });
-    t1.fromTo(".ball", { y: 100, x: "random(-300, 300, 5)", opacity: 1 }, { opacity: 0, y: -900, repeat: -1, duration: 10, stagger: 1 })
-
-
-
   });
 
   return (
@@ -38,24 +34,8 @@ function App() {
         <h2>more coming <span>soon...</span></h2>
       </section>
       <Footer />
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
-      <div className="ball"></div>
+      <div className="ball-1"></div>
+      <div className="ball-2"></div>
     </div >
   );
 }
