@@ -52,7 +52,7 @@ section.hero {
   position: relative;
   grid-row: 2 / 3;
   width: 100vw;
-  height: 500px;
+  height: auto;
   background-color: black;
   display: flex;
   flex-direction: column;
