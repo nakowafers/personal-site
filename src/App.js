@@ -31,13 +31,11 @@ function App() {
       <section className="services">
         <div>
           <h2>Logo Design</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero qui reiciendis beatae itaque sunt hic non, officia quidem tempore laborum ipsum, aperiam rem. Itaque quam ducimus, soluta maiores voluptatem facilis.
-          Deserunt fugiat quam, accusamus iusto saepe cumque laborum dolore eos aperiam ducimus dolores aspernatur doloremque est maxime dolorum modi. Reprehenderit eaque laboriosam nostrum pariatur quia dolore nam minus illum inventore!</p>
+          <p>Coming Soon!</p>
         </div>
         <div>
           <h2>Website Design</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero qui reiciendis beatae itaque sunt hic non, officia quidem tempore laborum ipsum, aperiam rem. Itaque quam ducimus, soluta maiores voluptatem facilis.
-          Deserunt fugiat quam, accusamus iusto saepe cumque laborum dolore eos aperiam ducimus dolores aspernatur doloremque est maxime dolorum modi. Reprehenderit eaque laboriosam nostrum pariatur quia dolore nam minus illum inventore!</p>
+          <p>Coming Soon!</p>
         </div>
       </section>
       <section className="head-shot">
